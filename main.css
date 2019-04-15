@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F6F4F2;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background: #EDF6FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#girl{
+    width: 360px;
+    height: 250px;
+    object-fit: contain;
+}
+
+#key{
+    width: 100%;
+    height: 25px;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container{
+    padding: 10px;
+}
+
+.disabled{
+    display: none;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
